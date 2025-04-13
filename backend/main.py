@@ -1,8 +1,6 @@
 from fastapi import FastAPI
-import asyncio
 from agents.manager import ManagerAgent
 
-# 🎯 Update this to match your current test product/site
 ADVERTISED_OBJECT = "custom phone cases"
 STORE_LINK = "https://www.casetify.com"
 
