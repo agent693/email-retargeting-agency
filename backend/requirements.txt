@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pandas
+langchain
+openai
+bs4
+requests
+python-dotenv
+schedule
+aiofiles
