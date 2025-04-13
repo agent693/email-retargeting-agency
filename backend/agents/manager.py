@@ -24,7 +24,8 @@ class ManagerAgent:
 
         delivery_results = []
 
-        for email in emails:
+        if emails:
+            email = emails[0]  # ✅ Only send to first email
             data = await self.research_agent.research_email(email)
             data.update(company_info)
             content = await self.writer.write_email(data)
