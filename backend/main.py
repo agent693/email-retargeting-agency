@@ -2,8 +2,9 @@ from fastapi import FastAPI
 import asyncio
 from agents.manager import ManagerAgent
 
-ADVERTISED_OBJECT = "AI-powered CRM for small businesses"
-STORE_LINK = "https://yourstore.com"
+# 👇 Your advertised product + test store
+ADVERTISED_OBJECT = "custom phone cases with unique designs"
+STORE_LINK = "https://www.casetify.com"
 
 app = FastAPI()
 
